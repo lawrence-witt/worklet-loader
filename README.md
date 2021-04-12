@@ -1,4 +1,4 @@
-> **NOTE**: This is a simple fork which adds an `application/javascript` mimetype to the Blob constructor in `./dist/worklets/InlineWorklet.js`, so that inline Blobs can be loaded and used as secure AudioWorklets in Chromium browsers.
+> **NOTE**: This is a simple fork which adds an `application/javascript` mimetype to the Blob constructor in `./src/worklets/InlineWorklet.js`, so that inline Blobs can be loaded and used as secure AudioWorklets in Chromium browsers.
 
 # Worklet Loader
 This loader loads imported scripts as a URL pointing to (or containing) a compiled module. That URL can be used to add worklet modules.
